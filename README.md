@@ -26,8 +26,8 @@ API teste:
 08. Criar uma new Tab 
 09. localhost:8000/api/login (GET)
 10. Na aba Body, em form-data, informar os seguintes valores (para resposta True):
-    KEY = user VALUE = super
-    KEY = password VALUE = 01234
+    * KEY = user VALUE = super
+    * KEY = password VALUE = 01234
 11. localhost:8000/api/acesso/{user} (POST) 
     onde {user} é o usuário que tem o acesso, ex.: super.
 12. Retornará True se o usuário de acesso está logado.
